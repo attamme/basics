@@ -24,7 +24,7 @@ rl.question(`Sisestage enda vanus: `, vanus => {
                 min = 0.7 * maxpulss
                 max = 0.8 * maxpulss
             }
-            if (treening == '3'){
+            else if (treening == '3'){
                 min = 0.8 * maxpulss
                 max = 0.87 * maxpulss
             }
